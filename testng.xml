@@ -5,7 +5,7 @@
     <classes>
      <!--<class name="productListPageTestCase.TC_01_SortProductByAscendingOrderByName"/>-->
     <!--  <class name="productListPageTestCase.TC_02_SortProductByDescendingOrderByName"/>-->
-    <class name="productListPageTestCase.TC_05_PersistenceOfSortingChoice"/>
+    <class name="productListPageTestCase.TC_03_SortProductByAscendingOrderByPrize"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

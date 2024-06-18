@@ -479,4 +479,13 @@
  2024-05-28 19:26:24,841  INFO [main] LoginPageLogger:76 - Clicked on login button
  2024-05-28 19:26:24,911  INFO [main] LoginPageLogger:51 - Click on product sort drop down menu
  2024-05-28 19:26:25,434  INFO [main] LoginPageLogger:59 - select option from the drop Down
+ 2024-06-18 14:09:27,454  INFO [main] LoginPageLogger:47 - Enter user name
+ 2024-06-18 14:09:27,800  INFO [main] LoginPageLogger:49 - Enter Username as : standard_user
+ 2024-06-18 14:09:27,806  INFO [main] LoginPageLogger:53 - Enter Password
+ 2024-06-18 14:09:28,055  INFO [main] LoginPageLogger:55 - Enter Password As : secret_sauce
+ 2024-06-18 14:09:28,059  INFO [main] LoginPageLogger:74 - Clicking on login button
+ 2024-06-18 14:09:28,373  INFO [main] LoginPageLogger:76 - Clicked on login button
+ 2024-06-18 14:09:28,472  INFO [main] LoginPageLogger:51 - Click on product sort drop down menu
+ 2024-06-18 14:09:29,018  INFO [main] LoginPageLogger:59 - select option from the drop Down
+ 2024-06-18 14:09:29,225  INFO [main] LoginPageLogger:98 - get all products prize
  

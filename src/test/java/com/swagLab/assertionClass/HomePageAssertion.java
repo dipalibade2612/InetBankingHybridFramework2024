@@ -54,6 +54,10 @@ public class HomePageAssertion {
 	{
 		softAssert.assertEquals(actualText, HomePageConstant.DROP_DOWN_OPTION_Z_TO_A,"Both Options are not same After navigate page");
 	}
+
+	public void newAsseration(){
+
+	}
 	}
 	
 
