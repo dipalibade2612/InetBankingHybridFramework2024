@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T19:26:18 IST" name="Suite" finished-at="2024-05-28T19:26:26 IST" duration-ms="8364">
+    <groups>
+    </groups>
+    <test started-at="2024-05-28T19:26:18 IST" name="Test" finished-at="2024-05-28T19:26:26 IST" duration-ms="8364">
+      <class name="productListPageTestCase.TC_05_PersistenceOfSortingChoice">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:18 IST" name="setUp" finished-at="2024-05-28T19:26:23 IST" duration-ms="5630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDataInit()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:23 IST" name="testDataInit" finished-at="2024-05-28T19:26:23 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataInit -->
+        <test-method signature="enterUserName()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:24 IST" name="enterUserName" description="Enter UserName" finished-at="2024-05-28T19:26:24 IST" depends-on-methods="com.swagLab.loginPageTestCases.BaseLoginClass.testDataInit" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserName -->
+        <test-method signature="enterPassword()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:24 IST" name="enterPassword" description="Enter Password" finished-at="2024-05-28T19:26:24 IST" depends-on-methods="com.swagLab.loginPageTestCases.BaseLoginClass.enterUserName" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method signature="clickOnLoginButton()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:24 IST" name="clickOnLoginButton" description="Click on login button" finished-at="2024-05-28T19:26:24 IST" depends-on-methods="com.swagLab.loginPageTestCases.BaseLoginClass.enterPassword" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method signature="clickOnProductSortDropDownMenu()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:24 IST" name="clickOnProductSortDropDownMenu" description="Click on product sort drop down menu" finished-at="2024-05-28T19:26:25 IST" depends-on-methods="com.swagLab.loginPageTestCases.BaseLoginClass.clickOnLoginButton" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProductSortDropDownMenu -->
+        <test-method signature="selectOptionFromTheDropDownMenu()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:25 IST" name="selectOptionFromTheDropDownMenu" description="select one option from the drop down" finished-at="2024-05-28T19:26:25 IST" depends-on-methods="productListPageTestCase.TC_05_PersistenceOfSortingChoice.clickOnProductSortDropDownMenu" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOptionFromTheDropDownMenu -->
+        <test-method signature="clickOnAnyWebElementOfProductListPage()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:25 IST" name="clickOnAnyWebElementOfProductListPage" description="navigate to another page" finished-at="2024-05-28T19:26:25 IST" depends-on-methods="productListPageTestCase.TC_05_PersistenceOfSortingChoice.selectOptionFromTheDropDownMenu" duration-ms="113" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIPALI', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce5eaeadf9312e44352f2586f378f1e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIPALI', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce5eaeadf9312e44352f2586f378f1e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.swagLab.pageOjects.HomePage.clickToNavigateAnotherPage(HomePage.java:79)
+at productListPageTestCase.TC_05_PersistenceOfSortingChoice.clickOnAnyWebElementOfProductListPage(TC_05_PersistenceOfSortingChoice.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAnyWebElementOfProductListPage -->
+        <test-method signature="AssertSelectedOptionIsSameAsAfterNavigateToPage()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:25 IST" name="AssertSelectedOptionIsSameAsAfterNavigateToPage" description="Asserting Selected option is same as after navigate to page" finished-at="2024-05-28T19:26:25 IST" depends-on-methods="productListPageTestCase.TC_05_PersistenceOfSortingChoice.clickOnAnyWebElementOfProductListPage" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_05_PersistenceOfSortingChoice.AssertSelectedOptionIsSameAsAfterNavigateToPage()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_05_PersistenceOfSortingChoice.AssertSelectedOptionIsSameAsAfterNavigateToPage()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertSelectedOptionIsSameAsAfterNavigateToPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:productListPageTestCase.TC_05_PersistenceOfSortingChoice@6e171cd7]" started-at="2024-05-28T19:26:25 IST" name="tearDown" finished-at="2024-05-28T19:26:26 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- productListPageTestCase.TC_05_PersistenceOfSortingChoice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
